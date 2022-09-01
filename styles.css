@@ -5,7 +5,7 @@
 }
 
 .container--bar {
-    padding: 0px 100px;
+    padding: 20px 100px;
     display:flex;
     justify-content:space-between;
     align-items: center;
@@ -25,19 +25,27 @@
 }
 
 .imgBar{
-    width: 40%;
+    width: 30%;
 }
 
 .bar--items {
     margin: 0;
-    padding: 40px 0px;
+    padding: 20px 20px;
+}
+
+.bar--items a {
+    text-decoration: none;
+    color:black;
 }
 
 .bar--items:hover {
     cursor: pointer;
-    border-bottom: 1px solid black;
-    color:blue;
-    padding: 39px 0px;
+    background-color: #F1852A;
+    color:#ffff;
+
+    /* border-bottom: 1px solid black; */
+    /* color:blue; */
+    /* padding: 39px 0px; */
 }
 
 .container--intro {
@@ -219,4 +227,70 @@
     cursor: pointer;
     color: rgb(230,46,25);
 }
+
+.services--containerIntro {
+    /* margin: 0 100px; */
+    padding-top: 100px;
+}
+
+.servicesIntro--img {
+    background-image: url("./img/VR-ArcReal-2400x1094-HighRise.jpeg");
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servicesIntro--text {
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 80%;
+}
+
+.servicesContainer--content {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.first--servicesContent {
+    margin-top: 50px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicesContent--img img {
+    width: 100%;
+}
+
+.servicesContent--text {
+    text-align: left;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.servicesContent--text button {
+    border: 1px solid rgb(230,46,25);
+    padding: 10px;
+    font-weight: bold;
+    background-color: #ffff;
+    color: rgb(230,46,25);
+    cursor: pointer;
+}
+
+
+.servicesContent--text button:hover {
+    color:#ffff;
+    background-color: rgb(230,46,25);
+}
+
 
